@@ -23,4 +23,4 @@ RUN apt-get update &&\
   apt-get install -y esl-erlang elixir --no-install-recommends &&\
   rm -rf /var/lib/apt/lists/*
 
-CMD bash
+CMD iex
