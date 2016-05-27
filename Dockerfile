@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM node:5
 MAINTAINER Alessio Caiazza <nolith@abisso.org>
 
 ENV DEBIAN_FRONTEND noninteractive
